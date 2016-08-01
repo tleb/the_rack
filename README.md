@@ -28,3 +28,5 @@ Usage example:
     assert c['bar'] == c['bar'] # Caching
 
 The complete usage is explained [in the doc](doc.md).
+
+This code is licenced under [the MIT license](https://tleb.mit-license.org/).
