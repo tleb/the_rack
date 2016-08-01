@@ -26,3 +26,5 @@ Usage example:
     c['bar'] # Bar object
 
     assert c['bar'] == c['bar'] # Caching
+
+The complete usage is explained [in the doc](doc.md).
