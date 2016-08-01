@@ -14,11 +14,10 @@ setup(
     classifiers=[
         "Programming Language :: Python",
         "Development Status :: 1 - Planning",
-        "License :: OSI Approved",
+        "License :: OSI Approved :: MIT License"
         "Natural Language :: French",
         "Operating System :: OS Independent",
         "Programming Language :: Python :: 3.4",
         "Topic :: Communications",
     ],
-    license="WTFPL",
 )
