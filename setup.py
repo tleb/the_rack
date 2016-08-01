@@ -13,7 +13,7 @@ setup(
     url='http://github.com/tleb/the_rack',
     classifiers=[
         "Programming Language :: Python",
-        "License :: OSI Approved :: MIT License"
+        "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
         "Programming Language :: Python :: 3.4",
     ],
