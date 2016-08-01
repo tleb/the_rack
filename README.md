@@ -1,7 +1,7 @@
 the_rack
 ========
 
-A simpler DI Container.
+> A simpler DI Container.
 
 Install it using pip:
 
