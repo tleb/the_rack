@@ -1,6 +1,6 @@
 ## Simple usage
 
-```python3
+```python
 from the_rack import Rack
 c = Rack()
 
@@ -15,7 +15,7 @@ c['foo']
 
 ## Factory
 
-```python3
+```python
 # By default, a callable is cached but this behaviour can be stopped:
 c.set('foo', lambda get: 'bar', True)
 
@@ -37,7 +37,7 @@ c.factory()
 
 ## Exists
 
-```python3
+```python
 # There are two ways available to see if a key exists:
 c.exists('foo')
 'foo' in c
@@ -45,7 +45,7 @@ c.exists('foo')
 
 ## Delete
 
-```python3
+```python
 # Again, two ways to do the same thing:
 c.delete('foo')
 del(c['foo'])
@@ -53,7 +53,7 @@ del(c['foo'])
 
 ## Extending
 
-```python3
+```python
 # You can easily modify an entry by extending it:
 c.set('foo', lambda get: 'foo')
 c.extend('foo', lambda get, prev: prev() + 'bar')

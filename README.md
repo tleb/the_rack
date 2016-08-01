@@ -9,7 +9,7 @@ Install it using pip:
 
 Usage example:
 
-```python3
+```python
 from the_rack import Rack
 
 class Foo: pass
