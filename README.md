@@ -9,23 +9,25 @@ Install it using pip:
 
 Usage example:
 
-    from the_rack import Rack
+```python3
+from the_rack import Rack
 
-    class Foo: pass
+class Foo: pass
 
-    c = Rack()
-    c['foo'] = lambda get: Foo()
+c = Rack()
+c['foo'] = lambda get: Foo()
 
-    c['foo'] # Foo object
+c['foo'] # Foo object
 
-    class Bar:
-        def __init__(self, foo): pass
+class Bar:
+    def __init__(self, foo): pass
 
-    c['bar'] = lambda get: Bar(get('foo'))
+c['bar'] = lambda get: Bar(get('foo'))
 
-    c['bar'] # Bar object
+c['bar'] # Bar object
 
-    assert c['bar'] == c['bar'] # Caching
+assert c['bar'] == c['bar'] # Caching
+```
 
 The complete usage is explained [in the doc](doc.md).
 
