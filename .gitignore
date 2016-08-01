@@ -6,3 +6,4 @@ pip-delete-this-directory.txt
 htmlcov/
 .coverage
 *.egg-info/
+dist/
