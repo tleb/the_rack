@@ -1,7 +1,7 @@
 the_rack
 ========
 
-> A simpler DI Container.
+> A cachable collection with extension abilities
 
 ## Install using pip
 

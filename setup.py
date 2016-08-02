@@ -7,7 +7,7 @@ setup(
     packages=find_packages(),
     author="tleb",
     author_email="tleb@openmailbox.org",
-    description="A simpler DI Container",
+    description="A cachable collection with extension abilities",
     long_description=open('README.md').read(),
     include_package_data=True,
     url='http://github.com/tleb/the_rack',
