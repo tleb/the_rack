@@ -99,6 +99,9 @@ class Rack(CheckMixin):
         return self.get(key)
 
     def __setitem__(self, key, value):
+        if self.exists(key):
+            return self.extend(key, value)
+
         return self.set(key, value)
 
     def __delitem__(self, key):

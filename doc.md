@@ -64,4 +64,10 @@ assert c.get('foo') == 'foobar'
 # standard function, and prev, which calls the previous function.
 
 # A function can be extended as many times as needed.
+
+# When using the set dict-like syntax, if a key already exists, it will extend:
+c = Rack()
+c['foo'] = lambda g: 'foo'
+c['foo'] = lambda g, p: p() + 'bar'
+assert c['foo'] == 'foobar'
 ```
